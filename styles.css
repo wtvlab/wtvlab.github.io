@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    background-color: #6074AF;
+    color: #FFC700;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    color: #6074AF;
+    background-color: #FFC700;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 2em;
+}
+
+
+img {
+    width: 25vw;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    font-size: 1.5rem;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #FFC700;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 2.5rem;
+}
+
+a:active {
+    color: #FFC700;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.banner {
+    background-color: #FFC700;
+    color: #6074AF;
+    display: flex;
+    justify-content: center;
+}
+
+.banner a{
+    background-color: #FFC700;
+    color: #6074AF;
+}
+
+.banner a:active {
+    background-color: #FFC700;
+    color: #6074AF;
+}
+
+.banner-link {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-link:hover {
+    background-color: #6074AF;
+    color: #FFC700;
+    transition: all .5s ease-in;
+}
+
+.explainer {
+    text-align: center;
+}
+
+.tutorial-list-container {
+    border: 3px solid #FFC700;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.tutorial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tutorial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 25vw;
+    object-fit: contain;
+    border-radius: 20px;
+    
+}
+
+.tutorial-item:hover {
+    color: #6074AF;
+    background-color: #FFC700;
+    transition: all .5s ease-in;
+}
